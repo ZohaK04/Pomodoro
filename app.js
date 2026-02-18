@@ -1,9 +1,11 @@
 const bells = new Audio('./sounds/mixkit-bike-magical-bell-591.wav');
+const bgMusic = new Audio('./sounds/Song.mp3');
 const startBtn = document.querySelector('.btn-start');
 const pauseBtn = document.querySelector('.btn-pause');
 const resetBtn = document.querySelector('.btn-reset');
 const session = document.querySelector('.minutes');
 const DEFAULT_SESSION_MINUTES = 60;
+const bgMusic = true;
 
 let isPaused = false;
 let initialSeconds;
