@@ -3,7 +3,7 @@ const startBtn = document.querySelector('.btn-start');
 const pauseBtn = document.querySelector('.btn-pause');
 const resetBtn = document.querySelector('.btn-reset');
 const session = document.querySelector('.minutes');
-const DEFAULT_SESSION_MINUTES = 25;
+const DEFAULT_SESSION_MINUTES = 60;
 
 let isPaused = false;
 let initialSeconds;
