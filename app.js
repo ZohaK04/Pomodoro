@@ -9,7 +9,7 @@ const startBtn = document.querySelector('.btn-start');
 const pauseBtn = document.querySelector('.btn-pause');
 const resetBtn = document.querySelector('.btn-reset');
 const session = document.querySelector('.minutes');
-const DEFAULT_SESSION_MINUTES = 60;
+const DEFAULT_SESSION_MINUTES = 30;
 
 let trackIndex = 0;
 const player = new Audio(playlist[trackIndex]);
